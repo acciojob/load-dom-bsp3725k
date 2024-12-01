@@ -4,5 +4,5 @@ document.addEventListener("DOMContentLoaded", () => {
   const message = document.createTextNode("DOM load success");
 
   // Append the message to the body
-  document.body.appendChild(message);
+  document.body.append(message);
 });
