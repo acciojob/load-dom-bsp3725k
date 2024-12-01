@@ -1,3 +1,8 @@
-//your JS code here. If required.
-let domc= document.getElementById("dom");
-domc.innerHTML += "DOM load success";
+// Wait for the DOM to fully load
+document.addEventListener("DOMContentLoaded", () => {
+  // Create a text node with the message
+  const message = document.createTextNode("DOM load success");
+
+  // Append the message to the body
+  document.body.appendChild(message);
+});
